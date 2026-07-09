@@ -1,0 +1,206 @@
+npm run dev
+
+
+React වල ඉඳන් Next.js දක්වා සාර්ථකව යන්න (React Developer කෙනෙක් වෙලා, Next.js Full-stack මට්ටමට එන්න) ඔයා ඉගෙන ගත යුතු දේවල් පිලිවෙලින් මෙන්න මේ Roadmap එකෙන් බලාගන්න පුළුවන්.
+
+මේක කොටස් 3කට බෙදලා තේරුම් ගමු:
+
+Phase 1: React වලදී අනිවාර්යයෙන්ම මාස්ටර් කරන්න ඕනෑ දේවල් (The React Foundation)
+Next.js වලට යන්න කලින් React වල මේ මූලික කරුණු ටික හොඳටම පුළුවන් වෙන්න ඕනේ. මොකද Next.js කියන්නේ Reactවලම දිගුවක්.
+
+JSX & Components: Component එකක් ලියන විදිහ, props හරහා data පාස් කරන විදිහ.
+
+React Hooks (ප්‍රධානම කොටස):
+
+useState (Data state එකක් හැසිරවීම)
+
+useEffect (Component එකක් load වෙද්දී API එකකින් ඩේටා fetch කිරීම වගේ Side effects පාලනය)
+
+useRef, useContext (Global state කළමනාකරණය)
+
+Conditional Rendering & Lists: map() method එක පාවිච්චි කරලා dynamic lists (උදා: items/products list එකක්) screen එකේ පෙන්වන විදිහ.
+
+Data Fetching: Standard React වලදී fetch() හෝ Axios පාවිච්චි කරලා 3rd party API එකකින් ඩේටා ගෙනත් පෙන්වන ක්‍රමය.
+
+Phase 2: Next.js වලට පිවිසීමට අවශ්‍ය අමතර තාක්ෂණ (The Prerequisites)
+Next.js modern industry එකේ පාවිච්චි වෙද්දී තවත් තාක්ෂණ කිහිපයක් ඒකට බද්ධ වෙලා තියෙනවා:
+
+JavaScript ES6+ Features: Arrow functions, Destructuring, Spread/Rest operators, Promises, සහ Async/Await ගැන ඉතා හොඳ අවබෝධයක් තිබීම අනිවාර්යයි.
+
+TypeScript (Highly Recommended): දැනට modern Next.js project සියල්ලක්ම වගේ කරන්නේ TypeScript වලින්. React/Next.js කෝඩ් එකේ errors අඩු කරගන්න සහ data types නිවැරදිව තියාගන්න TypeScript මූලික කරුණු (Interfaces, Types) ඉගෙන ගන්න එක ගොඩක් වටිනවා.
+
+Tailwind CSS: Next.js project එකක් create කරද්දීම ඉබේම අහනවා Tailwind CSS ඕනෙද කියලා. Next.js එක්ක design කරන්න ලේසිම සහ industry එකේ බහුලවම පාවිච්චි කරන්නේ Tailwind CSS.
+
+Phase 3: Next.js වලදී ඉගෙන ගත යුතු ප්‍රධාන දේවල් (The Next.js Core)
+ඔයා Next.js ඉගෙන ගන්න පටන් ගත්තම ප්‍රධාන වශයෙන්ම අවධානය යොමු කරන්න ඕනෑ මාතෘකා මෙන්න:
+
+1. App Router & File-based Routing
+Next.js වල අලුත්ම ක්‍රමය තමයි App Router (app folder එක ඇතුළේ වැඩ කරන්නේ).
+
+page.js (පිටු හදන හැටි), layout.js (මුළු site එකටම පොදු dynamic layouts හදන හැටි).
+
+Dynamic Routing: [id]/page.js පාවිච්චි කරලා dynamic පිටු (උදා: එක එක product එකට අදාළ separate pages) හදන හැටි.
+
+2. Server Components vs Client Components
+Next.js වල තියෙන ලොකුම වෙනසක් තමයි මේක.
+
+Server Components: ඉබේම හැදෙන පිටු (SEO වලට සුපිරි, database එකට කෙලින්ම කනෙක්ට් වෙන්න පුළුවන්, browser එකට බරක් නැහැ).
+
+Client Components: Button clicks, forms, event listeners, සහ react hooks (useState, useEffect) පාවිච්චි කරනවා නම් file එක උඩින්ම "use client" කියලා දාන්න ඕනේ. මේ දෙක ගැලපෙන විදිහට පාවිච්චි කරන්න ඉගෙන ගන්න ඕනේ.
+
+3. Data Fetching & Rendering Strategies
+SSR (Server-Side Rendering): හැම user request එකකටම server එකේදී data fetch වෙලා page එක හැදෙන හැටි.
+
+SSG (Static Site Generation): Build වෙද්දීම pages ටික ready වෙලා තියෙන ක්‍රමය (ඉතාමත් වේගවත්).
+
+Data Caching: Next.js වල fetch() එකෙන් ඩේටා cache කරලා තියාගන්නා ආකාරය.
+
+4. Route Handlers (Full-stack Backend APIs)
+Next.js ඇතුළෙම route.js ෆයිල් එකක් හදලා GET, POST, PUT, DELETE වගේ Backend API Routes හදන හැටි සහ ඒවා Database එකකට (MongoDB, PostgreSQL, or Prisma ORM) සම්බන්ධ කරන හැටි.
+
+5. Next.js Built-in Components
+<Image/> Component එක (Images auto-optimize කරන්න).
+
+<Link/> Component එක (පිටු අතර වේගයෙන් යන්න).
+
+ආරම්භ කරන්නේ කොහොමද?
+ඔයා දැනටමත් React මූලික දේවල් (Arrays, Objects හැසිරවීම්, Component structure) දන්නවා නම්, Next.js official documentation එකේ තියෙන "Learn Next.js" කියන free interactive tutorial එකෙන් පටන් ගන්න. ඒක ඉතාමත් පැහැදිලිව පියවරෙන් පියවර කියලා දෙනවා.
+📊 Progress
+React Fundamentals
+-----------------------
+✅ React Introduction
+✅ JSX
+✅ Components
+✅ Props
+✅ useState
+✅ Event Handling
+✅ Conditional Rendering
+✅ Dynamic Styling
+
+Projects
+-----------------------
+✅ Counter App
+✅ Like Button
+✅ Dark Mode Toggle
+✅ Show / Hide Password
+
+Overall Progress
+██████████░░░░░░░░░░ 40%
+🔜 ඊළඟට කරන්න තියෙන්නේ
+Module 2
+⬜ ❓ Show / Hide Text
+⬜ Forms (Input Fields)
+⬜ Controlled Components
+⬜ Login Form
+⬜ Signup Form
+Module 3
+⬜ Rendering Lists
+⬜ map()
+⬜ key
+⬜ Filter
+⬜ Delete Items
+
+🛠️ Project: Student List
+
+Module 4
+⬜ useEffect
+⬜ Fetch API
+⬜ Loading
+⬜ Error Handling
+
+🛠️ Project: Weather App
+
+Module 5
+⬜ Todo App (Professional)
+
+Features:
+
+Add Task
+Edit Task
+Delete Task
+Complete Task
+Search
+Local Storage
+Module 6
+⬜ React Router
+Module 7
+⬜ Context API
+Module 8
+⬜ Final React Project
+
+
+
+
+
+
+
+
+
+
+
+
+ඉගෙන ගත් Concepts
+✔ React Introduction
+✔ Vite Setup
+✔ JSX
+✔ Components
+✔ Props
+✔ useState
+✔ Event Handling
+✔ Conditional Rendering
+✔ Dynamic Styling
+📚 තව ඉගෙන ගන්න තියෙන React Concepts
+🟢 Module 1 - Forms
+⬜ Input Elements
+⬜ Controlled Components
+⬜ onChange Event
+⬜ Multiple Inputs
+⬜ Form Validation
+⬜ Login Form
+⬜ Signup Form
+🟢 Module 2 - Rendering Lists
+⬜ JavaScript map()
+⬜ Rendering Arrays
+⬜ key Prop
+⬜ Filter
+⬜ Search
+⬜ Delete Items
+🟢 Module 3 - State Management
+⬜ Lifting State Up
+⬜ Passing Functions as Props
+⬜ State Sharing
+🟢 Module 4 - useEffect
+⬜ Component Lifecycle
+⬜ useEffect()
+⬜ Dependencies
+⬜ Cleanup Function
+🟢 Module 5 - API
+⬜ Fetch API
+⬜ Async / Await
+⬜ Loading State
+⬜ Error Handling
+🟢 Module 6 - React Router
+⬜ Install Router
+⬜ Routes
+⬜ Link
+⬜ useNavigate
+⬜ Dynamic Routes
+⬜ 404 Page
+🟢 Module 7 - Hooks
+⬜ useRef
+⬜ useMemo
+⬜ useCallback
+⬜ Custom Hooks
+🟢 Module 8 - Context API
+⬜ Context
+⬜ Provider
+⬜ Consumer
+⬜ Global State
+🟢 Module 9 - Performance
+⬜ Memoization
+⬜ Lazy Loading
+⬜ Code Splitting
+🟢 Module 10 - Deployment
+⬜ Build Project
+⬜ Deploy to Vercel
+⬜ Environment Variables
