@@ -1,0 +1,442 @@
+ඔව්. React ඉගෙන ගන්න එකත් එක්කම Portfolio එකට දාන්න පුළුවන් Advanced Movie Watchlist System එකක් හදනවා නම් ගොඩක් හොඳයි. මේ project එකෙන් React වල almost හැම concept එකක්ම ඉගෙන ගන්න පුළුවන්.
+
+🎬 Project Name
+
+MovieVerse - Advanced Movie Watchlist & Review App
+
+📌 Final Features
+🟢 Phase 1 - React Basics
+Home Page
+Hero Section
+Trending Movies
+Popular Movies
+Top Rated Movies
+Upcoming Movies
+Search Bar
+Components
+Navbar
+Hero
+MovieCard
+MovieList
+Footer
+SearchBar
+Loading
+ErrorMessage
+Learn
+Components
+JSX
+Props
+CSS Modules
+Folder Structure
+🟢 Phase 2 - useState
+Features
+
+✅ Add Movie
+
+✅ Delete Movie
+
+✅ Edit Movie
+
+✅ Mark as Watched
+
+✅ Mark as Favorite ❤️
+
+✅ Rating (⭐)
+
+✅ Movie Notes
+
+✅ Show/Hide Details
+
+Learn
+useState
+
+Conditional Rendering
+
+Event Handling
+🟢 Phase 3 - Rendering Lists
+Features
+Search Movies
+
+Filter by Genre
+
+Filter by Rating
+
+Sort A-Z
+
+Sort by Rating
+
+Sort by Release Year
+
+Pagination
+Learn
+map()
+
+filter()
+
+sort()
+
+slice()
+🟢 Phase 4 - Forms
+
+Movie Form
+
+Movie Name
+
+Poster URL
+
+Genre
+
+Language
+
+Release Date
+
+Runtime
+
+Director
+
+Actors
+
+Description
+
+Trailer URL
+
+Rating
+
+Validation
+
+Required
+
+Minimum Length
+
+Invalid URL
+
+Duplicate Movie
+🟢 Phase 5 - useEffect
+Load Movies
+
+Auto Save
+
+Dark Mode Save
+
+Search Save
+
+Remember Last Page
+
+API Fetch
+
+Learn
+
+useEffect
+
+Dependency Array
+
+Cleanup
+🟢 Phase 6 - Local Storage
+
+Store
+
+Movies
+
+Favorites
+
+Watchlist
+
+Dark Mode
+
+Ratings
+
+Notes
+
+Reload
+
+Refresh කළත් Data නැති නොවීම
+🟢 Phase 7 - Routing
+
+Pages
+
+Home
+
+Movies
+
+Movie Details
+
+Watchlist
+
+Favorites
+
+Watched
+
+Reviews
+
+Profile
+
+About
+
+404
+
+Learn
+
+React Router
+
+Routes
+
+Nested Routes
+
+Dynamic Routes
+🟢 Phase 8 - Context API
+
+Global State
+
+Theme
+
+User
+
+Favorites
+
+Watchlist
+
+Movies
+
+Learn
+
+Context
+
+Provider
+
+useContext
+🟢 Phase 9 - Custom Hooks
+useLocalStorage()
+
+useFetch()
+
+useSearch()
+
+useTheme()
+
+usePagination()
+🟢 Phase 10 - API
+
+Use
+
+TMDB API
+
+or
+
+OMDb API
+
+Features
+
+Search Real Movies
+
+Movie Details
+
+Posters
+
+Cast
+
+Trailers
+
+Ratings
+
+Recommendations
+🟢 Phase 11 - Dashboard
+
+Cards
+
+Total Movies
+
+Watched
+
+Favorites
+
+Reviews
+
+Hours Watched
+
+Charts
+
+Genre Distribution
+
+Watched Progress
+
+Top Ratings
+🟢 Phase 12 - Reviews
+
+Each Movie
+
+Write Review
+
+Edit Review
+
+Delete Review
+
+Like Review
+
+Star Rating
+🟢 Phase 13 - Profile
+
+User
+
+Avatar
+
+Name
+
+Email
+
+Bio
+
+Favorite Genre
+
+Favorite Actor
+
+Statistics
+
+Movies Watched
+
+Hours
+
+Average Rating
+
+Favorites
+🟢 Phase 14 - Advanced Search
+Search
+
+Genre
+
+Year
+
+Language
+
+Runtime
+
+Rating
+
+Director
+
+Actor
+🟢 Phase 15 - Theme
+
+Themes
+
+Dark
+
+Light
+
+Purple
+
+Netflix Style
+🟢 Phase 16 - Animations
+Hover Cards
+
+Page Transition
+
+Loading Skeleton
+
+Modal Animation
+
+Toast Notification
+🟢 Phase 17 - Responsive
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+🟢 Phase 18 - Extra Features
+Infinite Scroll
+
+Recently Viewed
+
+Trending Today
+
+Random Movie
+
+Quote of the Day
+
+Movie Countdown
+
+Watch Later
+
+Share Movie
+
+Print Review
+
+Export Watchlist
+
+Import Watchlist
+
+Keyboard Shortcuts
+📁 Folder Structure
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── Navbar
+│   ├── Footer
+│   ├── MovieCard
+│   ├── MovieGrid
+│   ├── SearchBar
+│   ├── Rating
+│   ├── Filter
+│   ├── Modal
+│   ├── Loader
+│   └── Pagination
+│
+├── pages/
+│   ├── Home
+│   ├── Movies
+│   ├── MovieDetails
+│   ├── Favorites
+│   ├── Watchlist
+│   ├── Watched
+│   ├── Reviews
+│   ├── Dashboard
+│   ├── Profile
+│   └── NotFound
+│
+├── context/
+│
+├── hooks/
+│
+├── services/
+│
+├── utils/
+│
+├── styles/
+│
+├── data/
+│
+├── App.jsx
+│
+└── main.jsx
+🎓 React Concepts You'll Learn
+Module	Concepts
+React Basics	Components, JSX
+useState	State Management
+Lists	map(), filter(), key
+Forms	Controlled Components
+useEffect	API, Lifecycle
+React Router	Multi-page Apps
+Context API	Global State
+Custom Hooks	Reusable Logic
+Local Storage	Data Persistence
+API Integration	Fetch/Axios
+Responsive Design	CSS Flexbox, Grid
+Animations	Modern UI
+⭐ Final Portfolio Features
+🎬 Real Movie API Integration
+🔍 Smart Search & Filters
+❤️ Favorites Management
+📚 Personal Watchlist
+⭐ Ratings & Reviews
+🌙 Dark/Light Theme
+📊 Dashboard with Statistics
+👤 User Profile
+📱 Fully Responsive Design
+✨ Modern Animations
+💾 Local Storage Persistence
+🚀 Professional Folder Structure
+
+මෙය React ඉගෙන ගන්න ඉතා හොඳ end-to-end project එකක්. මෙය සම්පූර්ණ කළාම useState, useEffect, Context API, React Router, Custom Hooks, API Integration, Local Storage, Responsive UI වගේ ප්‍රධාන React concepts ප්‍රායෝගිකව අත්දැකීමක් ලැබෙනවා. GitHub සහ LinkedIn portfolio එකටත් ඉතා වටිනා project එකක් වේ.
