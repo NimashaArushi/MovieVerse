@@ -1,0 +1,269 @@
+🎬 Project Idea
+
+MovieVerse කියන්නේ සාමාන්‍ය User කෙනෙක් තමන් බලපු, බලන්න ඉන්න, කැමති Movies manage කරගන්න පුළුවන් Web Application එකක්.
+
+මේක Netflix එකක් වගේ Movie Streaming App එකක් නෙවෙයි.
+
+මෙහි අරමුණ:
+
+බලන්න Movies හොයන එක
+Watchlist එකක් හදන එක
+Favorites save කරන එක
+තමන්ගේ Reviews ලියන එක
+Movie collection එක organize කරන එක
+👤 User Types
+
+Project එකේ User Types දෙකක් තිබ්බොත් ලස්සනයි.
+
+1️⃣ Normal User
+
+මේක use කරන්නේ සාමාන්‍ය Movie fan කෙනෙක්.
+
+User ට පුළුවන්
+
+✅ Account Register වෙන්න
+
+✅ Login වෙන්න
+
+✅ Movies Search කරන්න
+
+✅ Movie Details බලන්න
+
+✅ Watchlist එකට Add කරන්න
+
+✅ Favorites වලට Add කරන්න
+
+✅ Watched ලෙස Mark කරන්න
+
+✅ තමන්ගේ Rating දෙන්න
+
+⭐⭐⭐⭐⭐
+
+✅ Review ලියන්න
+
+✅ Review Edit කරන්න
+
+✅ Review Delete කරන්න
+
+✅ Notes ලියන්න
+
+උදාහරණයක්:
+
+"මේ Movie එක හොඳයි. Ending එක නම් සුපිරි."
+
+✅ Trailer බලන්න
+
+✅ Similar Movies බලන්න
+
+✅ Dashboard එක බලන්න
+
+Movies Watched - 52
+
+Favorites - 18
+
+Watchlist - 27
+
+Average Rating - 4.3
+
+Hours Watched - 118
+2️⃣ Admin
+
+Admin කෙනෙක් Project එක manage කරනවා.
+
+Admin Dashboard
+Movies Manage
+
+➕
+
+Movie Add කරන්න
+
+✏️
+
+Movie Edit කරන්න
+
+🗑
+
+Movie Delete කරන්න
+
+Genres
+
+Genres Add
+
+Genres Edit
+
+Genres Delete
+
+Users
+
+Users List
+
+User Details
+
+User Delete
+
+User Suspend
+
+Reviews
+
+Spam Review Delete
+
+Bad Reviews Remove
+
+Reported Reviews Check
+
+Dashboard
+
+Total Users
+
+Total Movies
+
+Total Reviews
+
+Total Favorites
+
+Popular Movie
+
+Most Watched Genre
+
+Reports
+
+Most Rated Movies
+
+Top Users
+
+Most Reviewed Movies
+
+Why Admin?
+
+හිතන්න...
+
+User කෙනෙක් Movie Add කරනවා නම්
+
+Spider Man
+
+තව User කෙනෙක්
+
+Spider-Man
+
+Spider man
+
+spiderman
+
+කියලා Add කරනවා.
+
+Database එක අවුල් වෙනවා.
+
+ඒ නිසා
+
+Movie Database එක Manage කරන්න Admin ඉන්නවා.
+
+User Flow
+Register
+
+↓
+
+Login
+
+↓
+
+Home
+
+↓
+
+Search Movie
+
+↓
+
+Movie Details
+
+↓
+
+Add to Watchlist
+
+↓
+
+Later Watch
+
+↓
+
+Mark as Watched
+
+↓
+
+Give Rating
+
+↓
+
+Write Review
+
+↓
+
+Favorite
+
+↓
+
+Dashboard
+Admin Flow
+Login
+
+↓
+
+Dashboard
+
+↓
+
+Manage Movies
+
+↓
+
+Manage Genres
+
+↓
+
+Manage Users
+
+↓
+
+Manage Reviews
+
+↓
+
+View Reports
+මේ Functions ඇයි තියෙන්නේ?
+Function	හේතුව
+Search	ඉක්මනින් Movie හොයාගන්න
+Filter	Genre, Year, Language අනුව Movies වෙන් කරන්න
+Sort	Rating, Name, Release Date අනුව පිළිවෙලට බලන්න
+Watchlist	පස්සේ බලන්න තියාගන්න
+Favorites	ආසම Movies එකතු කරන්න
+Watched	බලපු Movies track කරන්න
+Rating	Movie එකට තමන්ගේ ලකුණු දෙන්න
+Review	අදහස share කරන්න
+Notes	පුද්ගලික සටහන් තියාගන්න
+Dashboard	තමන්ගේ Movie activity එක එක තැනින් බලන්න
+Dark Mode	දිගු වෙලාවක් භාවිතයට පහසු UI එකක්
+Local Storage / Database	Data නැති නොවී save වෙන්න
+Profile	User information සහ statistics තියාගන්න
+🎯 Real-World Scenario
+
+හිතන්න Nimasha කියලා user කෙනෙක් මේ app එක භාවිතා කරනවා.
+
+Login වෙනවා.
+"Interstellar" කියලා search කරනවා.
+Movie details page එක බලනවා.
+Trailer එක play කරනවා.
+"Watch Later" එකට add කරනවා.
+Movie එක බලලා "Watched" කියලා mark කරනවා.
+⭐⭐⭐⭐⭐ rating එකක් දෙනවා.
+Review එකක් ලියනවා.
+Favorites වලට add කරනවා.
+Dashboard එකේ තමන් බලපු Movies ගණන, favorite genres, average rating වගේ statistics බලනවා.
+💡 Portfolio එකට තවත් Professional කරන්න නම්
+
+මේ project එක Netflix + IMDb + Letterboxd වගේ apps වල හොඳ features එකතු කරලා හදන්න පුළුවන්.
+
+Netflix → ලස්සන Home UI, Trending sections
+IMDb → Movie details, cast, ratings
+Letterboxd → Personal watchlist, reviews, diary
+
+ඒ විදිහට හැදුවොත් React, API Integration, State Management, Routing, Authentication වගේ concepts ගොඩක් ප්‍රායෝගිකව ඉගෙන ගන්නත්, CV/GitHub/LinkedIn එකට දාන්නත් සුදුසු, professional-level project එකක් වෙනවා.

@@ -1,0 +1,228 @@
+🚀 React Complete Learning Roadmap
+🟢 Module 1 - React Basics
+✅ What is React?
+✅ Why React?
+✅ Install Node.js
+✅ Install VS Code
+✅ Create React App (Vite)
+✅ Folder Structure
+✅ JSX
+✅ Components
+✅ Functional Components
+✅ Props
+✅ CSS in React
+✅ Images & Assets
+Projects
+Hello World
+Student Card
+Profile Card
+Header & Footer
+Portfolio Homepage
+🟢 Module 2 - Rendering Lists
+JavaScript map()
+Rendering Arrays
+key Prop
+filter()
+Search
+Delete Items
+Projects
+Student List
+Product List
+Employee List
+🟢 Module 3 - State (useState)
+What is State?
+useState()
+Counter
+Like Button
+Show / Hide
+Toggle Theme
+Multiple States
+Object State
+Array State
+Projects
+Counter App
+Dark Mode
+Like System
+Shopping Cart Counter
+🟢 Module 4 - Forms
+Input
+onChange
+Controlled Components
+Login Form
+Signup Form
+Validation
+Projects
+Login Page
+Register Page
+Contact Form
+🟢 Module 5 - Events
+onClick
+onChange
+onSubmit
+onKeyDown
+onMouseEnter
+Event Object
+Projects
+Calculator
+Quiz App
+🟢 Module 6 - Conditional Rendering
+if
+if else
+&&
+Ternary Operator
+Loading Screen
+Empty State
+Projects
+Login Dashboard
+Loading Spinner
+🟢 Module 7 - useEffect
+useEffect()
+API Calls
+Dependencies
+Cleanup Function
+Fetch Data
+Projects
+Weather App
+Random User App
+🟢 Module 8 - Routing
+React Router
+BrowserRouter
+Routes
+Route
+Link
+NavLink
+useNavigate
+URL Parameters
+Projects
+Multi Page Website
+Blog Website
+🟢 Module 9 - Context API
+createContext()
+useContext()
+Provider
+Global State
+Projects
+Expense Tracker
+Theme Switcher
+🟢 Module 10 - Custom Hooks
+What is Hook?
+Custom Hook
+Reusable Logic
+Projects
+useFetch
+useLocalStorage
+🟢 Module 11 - API Integration
+Fetch API
+Axios
+GET
+POST
+PUT
+DELETE
+Error Handling
+Projects
+CRUD App
+Student Management
+🟢 Module 12 - Local Storage
+localStorage
+sessionStorage
+Save Data
+Load Data
+Projects
+Notes App
+Todo App
+🟢 Module 13 - CRUD Operations
+Create
+Read
+Update
+Delete
+Projects
+Employee CRUD
+Product CRUD
+🟢 Module 14 - Authentication
+Login
+Logout
+JWT Basics
+Protected Routes
+Role Based Access
+Projects
+Admin Dashboard
+🟢 Module 15 - React + .NET Web API
+Create ASP.NET Web API
+Connect React
+Fetch Data
+Login API
+CRUD API
+Authentication
+Projects
+Event Management System
+Student Management
+Library System
+🟢 Module 16 - Advanced React
+useReducer
+useMemo
+useCallback
+React.memo
+Lazy Loading
+Code Splitting
+🟢 Module 17 - State Management
+Redux Toolkit
+Redux Store
+Slice
+Dispatch
+Selector
+Projects
+E-commerce Store
+🟢 Module 18 - UI Libraries
+Bootstrap
+Tailwind CSS
+Material UI
+React Icons
+🟢 Module 19 - Testing
+Jest
+React Testing Library
+🟢 Module 20 - Deployment
+Build Project
+Vercel
+Netlify
+GitHub Pages
+💼 Portfolio Projects
+
+මේ Projects GitHub සහ LinkedIn එකට දාන්න හොඳයි:
+
+Counter App
+Calculator
+Todo App
+Notes App
+Weather App
+Expense Tracker
+Student Management System
+Employee Management System
+Movie Search App
+Recipe App
+E-commerce Website
+Chat App
+Blog Website
+Library Management System
+Event Management System (React + .NET Web API)
+Hospital Management System
+Hotel Booking System
+Online Learning Platform
+Food Ordering App
+Portfolio Website
+🎯 මගේ නිර්දේශිත ඉගෙනීමේ අනුපිළිවෙළ
+React Basics
+Rendering Lists
+useState
+Forms
+Events
+Conditional Rendering
+useEffect
+Routing
+Context API
+Local Storage
+API Integration
+CRUD
+Authentication
+React + .NET Web API
+Redux Toolkit
+Deployment

@@ -1,10 +1,10 @@
 import React from 'react';
-import Watchlist from'./components/Watchlist'; //connect to  the watchlist component
+import Navbar from './components/Navbar';
 
 function App(){
   return(
     <div>
-      <Watchlist/>
+     <Navbar />
     </div>
   );
 
